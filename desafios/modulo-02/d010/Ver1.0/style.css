@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+body {
+    background-color: #84e1ad;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(#3cda83, rgba(36, 36, 36, 0.747));
+    color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.678);
+    text-shadow: 1px 1px 3px #000000c2;
+    padding: 10px;
+}
+main {
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px #00000083;
+    border-radius: 0 0 10px 10px;
+}
+footer {
+    background-color: #1a5c38;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+article {
+    padding: 20px 10px;
+}
+
+#fraseHeader {
+    font-family: 'Courier New', Courier, monospace;
+    text-indent: 0;
+    text-align: center;
+    margin: 30px 0px;
+}
+ul{
+    text-align: left;
+}
+.navegacao {
+    display: inline-block;
+    margin: 0px;
+}
+.ancoraMain {
+    text-decoration: none;
+    color: #175a35;
+    font-weight: 600;
+}
+.ancoraMain:hover {
+    text-decoration: underline;
+}
+.ancoraNave {
+    display: inline-block;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-weight: 600;
+    padding: 0px 10px;
+}
+
+.ancoraNave:hover {
+    background-color: #498d67;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Bahnschrift Condensed';
+    font-weight: 400;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: idroid;
+    color: #175a35;
+}
+
+h3 {
+    font-family: idroid;
+    background-image: linear-gradient(to right, #c8ecd7, white);
+    color: #175a35;
+}
+
+.destaqueMain {
+    color: #175a35;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2em;
+    margin: 1em 0;
+}
+
+.blocoImagem {
+    text-align: center;
+}
+div {
+    max-width: 100%;
+    text-align: center
+}
+.video {
+    max-width: 100%;
+}
+.listaExtra {
+    display: block;
+    min-width: max-content;
+    margin-right: 5em;
+}
+.listaExtra::before {
+    color: #175a35;
+    font-weight: 600;
+    content: '✔ ';
+}
+
+
+#extra {
+    margin-top: 20px;
+    background-color: black;
+}
+#tituloExtra {
+    padding: 0.5em;
+    color: white;
+    background-color: green;
+}
+#conteudoExtra {
+    padding: 0 0.5em;
+    background-color: lightgreen
+}

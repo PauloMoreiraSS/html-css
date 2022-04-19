@@ -1,0 +1,12 @@
+header
+	background-color: #3cda83;
+
+main
+	background-color: #84e1ad;
+
+h1,strong
+	color: #175a35
+
+h2
+	background-color: #c8ecd7 "Degrade"
+
